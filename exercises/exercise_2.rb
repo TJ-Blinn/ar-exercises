@@ -9,3 +9,7 @@ puts "----------"
 @store2 = Store.find(2)
 
 puts @store1
+
+@store2.update(name: "Montreal")
+
+puts @store2.name
